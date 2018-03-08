@@ -1,4 +1,4 @@
-# Diabeties-detector
+# Diabetes-detector
 
 * An application for Diabetes detection. The app can tell whether the person has Diabetes or not and thus provide measures.
 Partial implementation of MLP as described in this paper.

@@ -1,13 +1,26 @@
-# Breast-cancer-detection
+# Diabeties-detector
 
-* An application for breast cancer detection. The app can tell whether the breast mass is benign(non-cancerous cells) or malignant(cancerous cells).
-* is a Python3 project to classify cancer data using Google's TensorFlow library and Neural Networks. The goal of this project was to validate and demonstrate that modern machine learning techniques in neural nets could prove to be useful in classifying cancer datasets.
-* Link of the dataset used: http://archive.ics.uci.edu/ml/datasets/Breast+Cancer+Wisconsin+%28Original%29 and http://portals.broadinstitute.org/cgi-bin/cancer/datasets.cgi
-* This repo contains dnn_data_classifier - A Deep Neural Network implementation to classify breast cancer tumours as benign or malignant depending on measurements taken directly from tumours.
-* The motivation for applying neural nets at cancer in particular came from Cancer Research's Citizen Science. This is a project that relied on volunteers to classify images of breast cancer tumours. The images themselves contained a mixture of different looking cells. Despite having over 2,000,000 contributions, the project struggled to differentiate cancer cells from non-cancer cells. Relying on volunteers to manually classify cancer seemed both inefficient and ineffective, and I believed that neural nets could provide a better method for classifying cancer.
+* An application for Diabetes detection. The app can tell whether the person has Diabetes or not and thus provide measures.
+Partial implementation of MLP as described in this paper.
 
-* The attributes in the sample are in the range (1-10). So, doctors will enter the values of attributes and clicking on the compute button can tell whether it's benign or malignant.
-* Video : https://www.youtube.com/watch?v=fos8E_96waU
+Dataset - pima-indians-diabetes
+
+Multilayer perceptron neural network with 8 inputs in the visible layer, 32 and 16 neurons in the 2 hidden layer with ReLu activation function and 1 neuron in the output layer with sigmoid activation function.
+
+Network trained for 700 epochs with batch size of 10 using ADAM optimizer and binary_crossentropy loss function.
+
+Attribute Information:
+
+Number of times pregnant
+Plasma glucose concentration a 2 hours in an oral glucose tolerance test
+Diastolic blood pressure (mm Hg)
+Triceps skin fold thickness (mm)
+2-Hour serum insulin (mu U/ml)
+Body mass index (weight in kg/(height in m)^2)
+Diabetes pedigree function
+Age (years)
+Class variable (0 or 1)*
+Video : https://www.youtube.com/watch?v=fos8E_96waU
 
 ### Requirements ###
 
@@ -15,5 +28,3 @@
 * TensorFlow >= 1.4.0
 * Flask
 * Heroku
-# diabetics-detector
-# diabetics-detector
